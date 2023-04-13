@@ -1,0 +1,8 @@
+create database quizshow;
+
+use quizshow;
+
+create table user(
+username varchar(150) primary key,
+pwd varchar(150) not null,
+highscore int not null);
